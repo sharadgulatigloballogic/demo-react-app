@@ -236,6 +236,7 @@ function IFormTab() {
                   name="aptNo"
                   value={formData.aptNo}
                   onChange={handleChange}
+                  onBlur={handleNACapitalization}
                   placeholder="Apt, Suite, etc."
                 />
               </div>
@@ -429,4 +430,3 @@ function IFormTab() {
 }
 
 export default IFormTab
-
